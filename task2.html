@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="container">
+             <div class="todoline">
+               <h1>Todo List <img src="img2.png" width="25"> </h1>
+               </div> 
+             <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <select id="prioritySelect">
+                <option >Priority</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <input type="date" id="deadlineInput">
+            <button id="addTaskButton">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
